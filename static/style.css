@@ -1,0 +1,192 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: "iman";
+	src: url("rachana.ttf");
+}
+
+#header {
+	/*position: relative;*/
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	background-color: #1cace1;
+	vertical-align: top;
+}
+
+#title {
+	/*position: relative;*/
+	font-family: "iman";
+	font-size: 60px;
+	font-style: italic;
+	color: #fff;
+	text-shadow: 1px 1px 1px #888;
+	text-align: center;
+	padding: 20px;
+}
+
+#input-ctrls {
+	position: relative;
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	/*background-color:#b0e0e6;*/
+	font-family: 'Rachana';
+	font-size: 18px;
+	color: #444;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+#inputtext {
+    /*position: absolute;*/
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid #b2b2b2;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #666;
+    max-width: 100%;
+    max-height: 150px;
+}
+
+#table {
+    position: relative;
+    width: 90%;
+    height: 300px;
+	margin-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+    /*top: 400px;*/
+    /*left: 50px;*/
+    border: 1px solide #000;
+    overflow: scroll;
+}
+
+#indicator {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.handsontable .dragdealer .handle {
+	/*background: #8821CE;*/
+}
+
+
+.filestyle {
+    position: absolute;
+    top: 10px;
+    right: 135px;
+}
+
+
+.filestyle .fileButton {
+    
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+    background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+    
+    background-color:#ffffff;
+    
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    
+    border:1px solid #dcdcdc;
+    
+    display:inline-block;
+    color:#666666;
+    font-family:arial;
+    font-size:12px;
+    font-weight:bold;
+    padding:0px 0px;
+    text-decoration:none;
+    
+    text-shadow:0px 1px 0px #ffffff;
+    
+}
+.filestyle .fileButton:hover {
+    
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+    background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+    
+    background-color:#f6f6f6;
+}
+.filestyle .fileButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+.twitter-button {
+    
+    -moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+    -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+    background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+    
+    background-color:#33bdef;
+    
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    
+    border:1px solid #057fd0;
+    
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    
+    text-shadow:0px -1px 0px #5b6178;
+    
+}
+.twitter-button:hover {
+    
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+    background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+    
+    background-color:#019ad2;
+}
+.twitter-button:active {
+    position:relative;
+    top:1px;
+}
